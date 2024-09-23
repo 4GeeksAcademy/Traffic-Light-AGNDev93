@@ -7,6 +7,24 @@
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
 
 */
+.sticky{
+    width:1px;
+    height:150px;
+}
+
+.light{
+    border-radius:50%;
+    padding: 40px;
+    border:none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.rowcard{
+    border-radius:20px;
+}
+
+.active{
+    box-shadow:  0 0 100px 20px rgba(255, 255, 153, 1);
+}
